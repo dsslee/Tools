@@ -43,7 +43,7 @@ $ sudo apt install python3.6"
 ```
 Writing default config to: /root/.jupyter/jupyter_notebook_config.py
 
-## 8. Set jupyter lab password: dasomlee
+## 8. Set jupyter lab password: ######
 ``` bash
  $ jupyter notebook password
 ```
@@ -58,10 +58,10 @@ Writing default config to: /root/.jupyter/jupyter_notebook_config.py
  $ vim ~/.jupyter/jupyter_notebook_config.py
 ```
 Edit the following: (refer to vim manual)
-- setting ip address: c.NotebookApp.ip = '210.112.119.66'
+- setting ip address: c.NotebookApp.ip = '210.117.119.55'
 - setting port number: c.NotebookApp.port = 8888
 - root directory setting: c.ContentsManager.root_dir = '/docker_data'
-- c.NotebookApp.password = 'sha1:d5609...'
+- c.NotebookApp.password = 'sha1:d2341...'
 
 
 ## 11. Starting Jupyter Lab Server
