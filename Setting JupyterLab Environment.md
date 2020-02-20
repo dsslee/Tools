@@ -33,10 +33,12 @@ $ sudo apt install python3.6"
 ``` bash
  $ apt install vim
 ```
+
 ## 6. Install Jupyterlab
 ``` bash
  $ python3 -m pip install jupyterlab
 ```
+
 ## 7. Create Configuration File
 ``` bash
  $ jupyter notebook --generate-config
@@ -53,6 +55,7 @@ Writing default config to: /root/.jupyter/jupyter_notebook_config.py
 ``` bash
  $ vim ~/.jupyter/jupyter_notebook_config.json
 ```
+
 ## 10. Edit config file( ip address, port, folder, password)
 ``` bash
  $ vim ~/.jupyter/jupyter_notebook_config.py
@@ -62,7 +65,6 @@ Edit the following: (refer to vim manual)
 - setting port number: c.NotebookApp.port = 8888
 - root directory setting: c.ContentsManager.root_dir = '/docker_data'
 - c.NotebookApp.password = 'sha1:d2341...'
-
 
 ## 11. Starting Jupyter Lab Server
 ``` bash
