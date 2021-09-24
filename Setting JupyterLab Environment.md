@@ -126,7 +126,7 @@ In order to have the server running in the background:
 
 ## 17.Local file/folder transport server
 ```bash
- $ scp -r (Local file directory)  mnc_admin@210.112.119.66:(server directory)
+ $ scp -r (Local file directory)  id@ip:(server directory)
 ```
 
 ## 18.Exit Docker
